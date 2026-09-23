@@ -1,10 +1,10 @@
-# ARIA Alert Ranking \& Intelligence Agent
+# ARIA Alert Ranking & Intelligence Agent
 
 AI-assisted SOC alert prioritization using deep learning-based network intrusion detection, retrieval-augmented alert correlation, explainable scoring, and continual threat-knowledge learning.
 
 ## What this is
 
-ARIA is not a network intrusion classifier alone it's a four-agent pipeline that takes raw network flow classification and turns it into ranked, explained, escalated SOC alerts, mimicking a real security operations triage workflow:
+ARIA is not a network intrusion classifier alone, it's a four-agent pipeline that takes raw network flow classification and turns it into ranked, explained, escalated SOC alerts, mimicking a real security operations triage workflow:
 
 ```
 Network Flow -> Detection Agent -> Correlation Agent -> Priority-Explainer Agent -> Escalation Agent -> API -> Frontend
@@ -17,7 +17,7 @@ The agents are served live via a FastAPI backend (`backend/api/`) and viewed thr
 |Agent|Role|Key technique|
 |-|-|-|
 |Detection Agent|Classifies network flows into 15 classes (BENIGN + 14 attack types)|Stacked ensemble: MLP + Random Forest + Logistic Regression meta-model|
-|Correlation Agent|Groups alerts by source + time, detects multi-stage attack campaigns|Sentence Transformers + FAISS (RAG-style retrieval against a MITRE ATT\&CK-tagged knowledge base)|
+|Correlation Agent|Groups alerts by source + time, detects multi-stage attack campaigns|Sentence Transformers + FAISS (RAG-style retrieval against a MITRE ATT&CK-tagged knowledge base)|
 |Priority-Explainer Agent|Scores alert urgency, explains the "why"|Weighted priority formula + SHAP feature attribution|
 |Escalation Agent|Logs high-risk incidents, grows the knowledge base|Novelty detection via embedding similarity, persistent incident log|
 
