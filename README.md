@@ -4,13 +4,13 @@ AI-assisted SOC alert prioritization using deep learning-based network intrusion
 
 ## What this is
 
-ARIA is not a network intrusion classifier alone â€” it's a four-agent pipeline that takes raw network flow classification and turns it into ranked, explained, escalated SOC alerts, mimicking a real security operations triage workflow:
+ARIA is not a network intrusion classifier alone it's a four-agent pipeline that takes raw network flow classification and turns it into ranked, explained, escalated SOC alerts, mimicking a real security operations triage workflow:
 
 ```
 Network Flow -> Detection Agent -> Correlation Agent -> Priority-Explainer Agent -> Escalation Agent -> API -> Frontend
 ```
 
-The agents are served live via a FastAPI backend (`backend/api/`) and viewed through a React frontend (`frontend/`) â€” including a genuinely dynamic "Live Analyze" page that runs a brand-new flow through the whole chain on demand, not just a viewer over pre-computed CSVs.
+The agents are served live via a FastAPI backend (`backend/api/`) and viewed through a React frontend (`frontend/`) including a genuinely dynamic "Live Analyze" page that runs a brand-new flow through the whole chain on demand, not just a viewer over pre-computed CSVs.
 
 ## Architecture
 
