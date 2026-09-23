@@ -1,4 +1,4 @@
-# ARIA â€” Alert Ranking \& Intelligence Agent
+# ARIA Alert Ranking \& Intelligence Agent
 
 AI-assisted SOC alert prioritization using deep learning-based network intrusion detection, retrieval-augmented alert correlation, explainable scoring, and continual threat-knowledge learning.
 
