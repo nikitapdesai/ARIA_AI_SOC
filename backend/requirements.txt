@@ -1,0 +1,16 @@
+pandas==3.0.5
+numpy==2.4.6
+scikit-learn==1.9.1
+tensorflow==2.21.0
+imbalanced-learn==0.14.2
+shap==0.51.0
+sentence-transformers==6.0.1
+faiss-cpu==1.15.0
+joblib==1.6.0
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+python-dotenv==1.2.3
+openpyxl==3.1.5
+langgraph==1.2.11
+langgraph-checkpoint-sqlite==3.1.1
+langsmith==0.12.4

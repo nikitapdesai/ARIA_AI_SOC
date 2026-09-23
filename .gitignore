@@ -1,0 +1,77 @@
+# =========================
+# Python
+# =========================
+backend/venv/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node / React
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# SQLite runtime files
+# =========================
+*.sqlite-shm
+*.sqlite-wal
+*.db-shm
+*.db-wal
+backend/data/escalation/graph_checkpoints.sqlite
+
+# =========================
+# Python tooling / caches
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Generated runtime outputs
+# =========================
+backend/data/runtime/
+backend/data/generated/
+
+# =========================
+# OS / miscellaneous
+# =========================
+*.DS_Store
+
+backend/data/escalation/incident_log.json

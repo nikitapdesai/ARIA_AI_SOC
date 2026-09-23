@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Reconnaissance-to-Brute-Force Campaign",
+    "description": "Sequence of attacks from same source: PortScan then SSH-Patator",
+    "typical_severity": "High",
+    "mitre_tactics": [
+      "TA0043 Reconnaissance",
+      "TA0006 Credential Access"
+    ]
+  },
+  {
+    "name": "Reconnaissance-to-Brute-Force Campaign",
+    "description": "Sequence of attacks from same source: PortScan then FTP-Patator",
+    "typical_severity": "High",
+    "mitre_tactics": [
+      "TA0043 Reconnaissance",
+      "TA0006 Credential Access"
+    ]
+  },
+  {
+    "name": "Full Intrusion Kill Chain",
+    "description": "Sequence of attacks from same source: PortScan then SSH-Patator then Infiltration",
+    "typical_severity": "Critical",
+    "mitre_tactics": [
+      "TA0043 Reconnaissance",
+      "TA0006 Credential Access",
+      "TA0004 Privilege Escalation"
+    ]
+  },
+  {
+    "name": "Full Intrusion Kill Chain",
+    "description": "Sequence of attacks from same source: PortScan then FTP-Patator then Infiltration",
+    "typical_severity": "Critical",
+    "mitre_tactics": [
+      "TA0043 Reconnaissance",
+      "TA0006 Credential Access",
+      "TA0004 Privilege Escalation"
+    ]
+  },
+  {
+    "name": "Credential Access to Botnet Enrollment",
+    "description": "Sequence of attacks from same source: SSH-Patator then Botnet",
+    "typical_severity": "Critical",
+    "mitre_tactics": [
+      "TA0006 Credential Access",
+      "TA0011 Command and Control"
+    ]
+  },
+  {
+    "name": "Web Application Attack Chain",
+    "description": "Sequence of attacks from same source: Web Attack - Brute Force then Web Attack - SQL Injection",
+    "typical_severity": "Critical",
+    "mitre_tactics": [
+      "TA0006 Credential Access",
+      "TA0009 Collection"
+    ]
+  },
+  {
+    "name": "Web Application Attack Chain",
+    "description": "Sequence of attacks from same source: Web Attack - Brute Force then Web Attack - XSS",
+    "typical_severity": "High",
+    "mitre_tactics": [
+      "TA0006 Credential Access",
+      "TA0009 Collection"
+    ]
+  },
+  {
+    "name": "Reconnaissance-to-DDoS Campaign",
+    "description": "Sequence of attacks from same source: PortScan then DDoS",
+    "typical_severity": "Critical",
+    "mitre_tactics": [
+      "TA0043 Reconnaissance",
+      "TA0040 Impact"
+    ]
+  },
+  {
+    "name": "Reconnaissance-to-DoS Campaign",
+    "description": "Sequence of attacks from same source: PortScan then DoS Hulk",
+    "typical_severity": "High",
+    "mitre_tactics": [
+      "TA0043 Reconnaissance",
+      "TA0040 Impact"
+    ]
+  },
+  {
+    "name": "Multi-Stage Infiltration and Botnet Deployment",
+    "description": "Sequence of attacks from same source: SSH-Patator then Infiltration then Botnet",
+    "typical_severity": "Critical",
+    "mitre_tactics": [
+      "TA0006 Credential Access",
+      "TA0004 Privilege Escalation",
+      "TA0011 Command and Control"
+    ]
+  },
+  {
+    "name": "Isolated Reconnaissance Only",
+    "description": "Sequence of attacks from same source: PortScan",
+    "typical_severity": "Medium",
+    "mitre_tactics": [
+      "TA0043 Reconnaissance"
+    ]
+  },
+  {
+    "name": "Isolated Credential Access Attempt",
+    "description": "Sequence of attacks from same source: SSH-Patator",
+    "typical_severity": "High",
+    "mitre_tactics": [
+      "TA0006 Credential Access"
+    ]
+  },
+  {
+    "name": "Learned Pattern - impact + reconnaissance",
+    "description": "Sequence of attacks from same source: DoS Hulk then DoS Slowloris then PortScan then DDoS",
+    "typical_severity": "High",
+    "mitre_tactics": [
+      "TA0040 Impact",
+      "TA0043 Reconnaissance"
+    ],
+    "learned_at": "2026-08-13T16:29:31.807538",
+    "source": "escalation_agent_auto_learned"
+  },
+  {
+    "name": "Learned Pattern - credential_access + impact",
+    "description": "Sequence of attacks from same source: DoS Hulk then FTP-Patator",
+    "typical_severity": "High",
+    "mitre_tactics": [
+      "TA0006 Credential Access",
+      "TA0040 Impact"
+    ],
+    "learned_at": "2026-08-13T19:45:05.594917",
+    "source": "escalation_agent_auto_learned"
+  },
+  {
+    "name": "Learned Pattern - credential_access + impact",
+    "description": "Sequence of attacks from same source: SSH-Patator then DDoS then DoS Hulk then DoS Hulk",
+    "typical_severity": "High",
+    "mitre_tactics": [
+      "TA0006 Credential Access",
+      "TA0040 Impact"
+    ],
+    "learned_at": "2026-08-13T19:45:05.660189",
+    "source": "escalation_agent_auto_learned"
+  },
+  {
+    "name": "Learned Pattern - impact + reconnaissance",
+    "description": "Sequence of attacks from same source: Web Attack - SQL Injection then PortScan then PortScan then PortScan",
+    "typical_severity": "Medium",
+    "mitre_tactics": [
+      "TA0040 Impact",
+      "TA0043 Reconnaissance"
+    ],
+    "learned_at": "2026-08-13T19:45:05.689106",
+    "source": "escalation_agent_auto_learned"
+  },
+  {
+    "name": "Learned Pattern - impact + reconnaissance",
+    "description": "Sequence of attacks from same source: DoS GoldenEye then PortScan then DoS GoldenEye then DDoS",
+    "typical_severity": "High",
+    "mitre_tactics": [
+      "TA0040 Impact",
+      "TA0043 Reconnaissance"
+    ],
+    "learned_at": "2026-08-13T21:21:17.717417",
+    "source": "escalation_agent_auto_learned"
+  }
+]

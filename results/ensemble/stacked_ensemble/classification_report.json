@@ -1,0 +1,105 @@
+{
+  "BENIGN": {
+    "precision": 0.9999246768164657,
+    "recall": 0.9893427733010387,
+    "f1-score": 0.9946055798533392,
+    "support": 214690.0
+  },
+  "Botnet": {
+    "precision": 0.24265644955300128,
+    "recall": 0.9743589743589743,
+    "f1-score": 0.3885480572597137,
+    "support": 195.0
+  },
+  "DDoS": {
+    "precision": 0.9998436767234641,
+    "recall": 0.9992969299273494,
+    "f1-score": 0.9995702285602657,
+    "support": 12801.0
+  },
+  "DoS GoldenEye": {
+    "precision": 0.9883381924198251,
+    "recall": 0.9892996108949417,
+    "f1-score": 0.988818667963053,
+    "support": 1028.0
+  },
+  "DoS Hulk": {
+    "precision": 0.9881000057211511,
+    "recall": 0.9991900491755857,
+    "f1-score": 0.993614083534691,
+    "support": 17285.0
+  },
+  "DoS SlowHTTPTest": {
+    "precision": 0.9772296015180265,
+    "recall": 0.9847036328871893,
+    "f1-score": 0.9809523809523809,
+    "support": 523.0
+  },
+  "DoS Slowloris": {
+    "precision": 0.9833333333333333,
+    "recall": 0.9851576994434137,
+    "f1-score": 0.9842446709916589,
+    "support": 539.0
+  },
+  "FTP-Patator": {
+    "precision": 1.0,
+    "recall": 0.9915682967959528,
+    "f1-score": 0.995766299745978,
+    "support": 593.0
+  },
+  "Heartbleed": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1.0
+  },
+  "Infiltration": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4.0
+  },
+  "PortScan": {
+    "precision": 0.9898416166029492,
+    "recall": 0.9992281398169589,
+    "f1-score": 0.9945127304653204,
+    "support": 9069.0
+  },
+  "SSH-Patator": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 322.0
+  },
+  "Web Attack - Brute Force": {
+    "precision": 0.5929203539823009,
+    "recall": 0.4557823129251701,
+    "f1-score": 0.5153846153846153,
+    "support": 147.0
+  },
+  "Web Attack - SQL Injection": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "Web Attack - XSS": {
+    "precision": 0.04020530367835757,
+    "recall": 0.7230769230769231,
+    "f1-score": 0.07617504051863858,
+    "support": 65.0
+  },
+  "accuracy": 0.9904494993469743,
+  "macro avg": {
+    "precision": 0.7868262140232581,
+    "recall": 0.8394003561735665,
+    "f1-score": 0.7719239347930881,
+    "support": 257264.0
+  },
+  "weighted avg": {
+    "precision": 0.9975869925284215,
+    "recall": 0.9904494993469743,
+    "f1-score": 0.993741499993182,
+    "support": 257264.0
+  }
+}

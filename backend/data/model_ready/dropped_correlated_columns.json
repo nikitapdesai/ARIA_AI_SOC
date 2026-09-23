@@ -1,0 +1,23 @@
+{
+  "Total Fwd Packets": "Total Backward Packets",
+  "Total Backward Packets": "Total Length of Bwd Packets",
+  "Fwd Packet Length Max": "Fwd Packet Length Std",
+  "Bwd Packet Length Max": "Bwd Packet Length Mean",
+  "Flow Duration": "Fwd IAT Total",
+  "Flow IAT Max": "Fwd IAT Max",
+  "Flow Packets/s": "Fwd Packets/s",
+  "Max Packet Length": "Packet Length Std",
+  "Fwd PSH Flags": "SYN Flag Count",
+  "Fwd URG Flags": "CWE Flag Count",
+  "RST Flag Count": "ECE Flag Count",
+  "Packet Length Mean": "Average Packet Size",
+  "Fwd Packet Length Mean": "Avg Fwd Segment Size",
+  "Bwd Packet Length Mean": "Avg Bwd Segment Size",
+  "Total Length of Bwd Packets": "Subflow Fwd Packets",
+  "Total Length of Fwd Packets": "Subflow Fwd Bytes",
+  "Subflow Fwd Packets": "Subflow Bwd Packets",
+  "Subflow Bwd Packets": "Subflow Bwd Bytes",
+  "Fwd IAT Max": "Idle Mean",
+  "Idle Mean": "Idle Max",
+  "Idle Max": "Idle Min"
+}
